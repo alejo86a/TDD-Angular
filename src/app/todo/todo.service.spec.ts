@@ -2,7 +2,7 @@ import { TestBed, inject } from '@angular/core/testing';
 
 import { TodoService } from './todo.service';
 
-fdescribe('TodoServiceService', () => {
+describe('TodoServiceService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [TodoService]
